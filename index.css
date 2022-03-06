@@ -1,0 +1,42 @@
+@import url("https://use.typekit.net/xwv6bzd.css");
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: #3f48cc;
+  text-align: justify;
+  font-family: "quasimoda";
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 500px;
+  display: none;
+}
+
+main p {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+main center {
+  font-size: 2em;
+}
+
+main center a {
+  color: unset;
+  text-decoration: none;
+}
+
+main center a:hover {
+  color: black;
+}
+
+main center a:not(:last-child) {
+  margin-right: 0.5em;
+}
