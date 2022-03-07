@@ -1,10 +1,19 @@
 @import url("https://use.typekit.net/xwv6bzd.css");
 
+:root {
+  --primary: #007FFF;
+  --secondary: black;
+}
+
+::selection {
+  background: var(--secondary)
+}
+
 body {
   margin: 0;
   height: 100vh;
   width: 100vw;
-  background: #007FFF;
+  background: var(--primary);
   text-align: justify;
   font-family: "quasimoda";
 }
@@ -34,7 +43,7 @@ main center a {
 }
 
 main center a:hover {
-  color: black;
+  color: var(--secondary);
 }
 
 main center a:not(:last-child) {
