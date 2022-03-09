@@ -1,12 +1,12 @@
 @import url("https://use.typekit.net/xwv6bzd.css");
 
 :root {
-  --primary: #007FFF;
+  --primary: #007fff;
   --secondary: black;
 }
 
 ::selection {
-  background: var(--secondary)
+  background: var(--secondary);
 }
 
 body {
@@ -25,6 +25,7 @@ main {
   transform: translate(-50%, -50%);
   color: white;
   width: 500px;
+  max-width: 80vw;
   display: none;
 }
 
