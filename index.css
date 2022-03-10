@@ -24,6 +24,7 @@ body {
 @media screen and (max-height: 400px) {
   body {
     align-items: unset;
+    margin-top: 15vh;
   }
 }
 
