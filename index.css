@@ -10,6 +10,9 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   height: 100vh;
   width: 100vw;
@@ -18,11 +21,13 @@ body {
   font-family: "quasimoda";
 }
 
+@media screen and (max-height: 400px) {
+  body {
+    align-items: unset;
+  }
+}
+
 main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: white;
   width: 500px;
   max-width: 80vw;
